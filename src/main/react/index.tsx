@@ -3,6 +3,7 @@ import './index.css';
 import App from './pages/App';
 import Page1 from './pages/Page1';
 import Page2 from './pages/Page2';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import {
   BrowserRouter,
@@ -16,7 +17,7 @@ const root = ReactDOM.createRoot(
 root.render(
   <BrowserRouter>
     <Routes>
-      <Route path="/" element={<App />} />
+      <Route path="/" element={<Page1 />} />
       <Route path="page1.ui" element={<Page1 />} />
       <Route path="page2.ui" element={<Page2 />} />
     </Routes>

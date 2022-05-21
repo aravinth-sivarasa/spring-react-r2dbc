@@ -1,10 +1,9 @@
-
-const Header = ({ title }:any) => {
+import { Link } from "react-router-dom";
+const Header = ({ title }: any) => {
   return (
     <header>
-      <h1>{title}</h1>
       <form method="POST" action="/logout" >
-        <button className="btn btn-lg btn-primary btn-block" type="submit" >logout</button>
+        <button className="btn btn-primary" type="submit">logout</button>
       </form>
     </header>
   )

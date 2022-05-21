@@ -1,6 +1,5 @@
 import './App.css';
 import PageTemplate from "../components/PageTemplate"
-
 function App() {
   return (
     <>
